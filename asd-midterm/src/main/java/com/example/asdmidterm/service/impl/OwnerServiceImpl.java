@@ -3,7 +3,9 @@ package com.example.asdmidterm.service.impl;
 import com.example.asdmidterm.model.Owner;
 import com.example.asdmidterm.repository.OwnerRepository;
 import com.example.asdmidterm.service.OwnerService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class OwnerServiceImpl implements OwnerService {
     private OwnerRepository ownerRepository;
 

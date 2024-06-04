@@ -20,4 +20,7 @@ public class Owner {
     private String address;
     @OneToMany(mappedBy = "owner")
     private List<House> houses;
+
+    public static <U extends Comparable<? super U>, T> U getPhone(T t) {
+    }
 }

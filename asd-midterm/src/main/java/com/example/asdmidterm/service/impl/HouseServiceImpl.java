@@ -3,7 +3,9 @@ package com.example.asdmidterm.service.impl;
 import com.example.asdmidterm.model.House;
 import com.example.asdmidterm.repository.HouseRepository;
 import com.example.asdmidterm.service.HouseService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class HouseServiceImpl implements HouseService {
     private HouseRepository houseRepository;
 
